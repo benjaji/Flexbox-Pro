@@ -12,7 +12,9 @@ body{
     width: 20%;
 }
 .second-item{
-    width: 75%;
+    width: 80%;
+    border: 2px solid #E8EBE4;
+    border-left: none;
 }
 .profile{
     display: flex;
@@ -20,7 +22,8 @@ body{
     justify-content: space-around;
     padding: 3% 15% 3% 15%;
     box-sizing: border-box;
-    border: 1px solid #E8EBE4;
+    border: 2px solid #E8EBE4;
+    border-bottom: none;
 }
 .profile-text{
     display: inline-block;
@@ -43,8 +46,45 @@ h2{
     font-weight: 600;
     font-size: 16px;
 }
+h3{
+    margin: 0;
+    font-size: 14px;
+}
 h6{
     font-weight: 400;
     font-size: 10px;
     color: #BEC1BB;
+}
+.btn{
+    width: 50%;
+    background-color: #A491D2;
+    box-sizing: border-box;
+    padding: 10px;
+    text-align: center;
+}
+.btn-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 118px;
+    box-sizing: border-box;
+    border: 2px solid #E8EBE4;
+}
+.btn a{
+    text-decoration: none;
+    color: white;
+}
+.chat-container{
+    display: flex;
+    box-sizing: border-box;
+    padding: 15px 40px 15px 40px;
+    justify-content: space-around;
+    align-items: center;
+    border: 2px solid #E8EBE4;
+    border-top: none;
+}
+.chat-container img{
+    width: 60px;
+    border-radius: 50%;
+    border: 1px solid #E8EBE4;
 }
